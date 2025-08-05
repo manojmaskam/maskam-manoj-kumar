@@ -203,7 +203,7 @@ html {
 /* === HERO SECTION === */
 /* Hero Section - Background only here */
 .hero-section {
-    background: url('images/homepage-bg.jpg') no-repeat center center;
+    background: url('./images/homepage-bg.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -1003,7 +1003,7 @@ body::before {
     padding-top: 4rem;
     padding-bottom: 2rem;
     position: relative;
-    background-image: url('/images/footer-bg.jpg');
+    background-image: url('./images/footer-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
