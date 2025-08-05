@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASKAM MANOJ KUMAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&family=Times+New+Roman&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo3.png" alt="Manoj Logo" class="logo-img">
+                <!--<span class="logo-text">Manoj</span>-->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">
+                            <span class="nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            <span class="nav-text">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">
+                            <span class="nav-text">Education</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">
+                            <span class="nav-text">Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">
+                            <span class="nav-text">Certifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <span class="nav-text">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="carousel-container">
+            <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100" style="background-image: url('images/slide1.png');">
+                        <div class="container h-100 d-flex align-items-center">
+                            <div class="row w-100">
+                                <!-- Profile Image Column - Always first -->
+                                <div class="col-12 col-md-6" data-aos="fade-right">
+                                    <div class="hero-image-container">
+                                        <img src="images/profile.png" alt="Profile" class="hero-profile-img">
+                                        <img src="images/slide_text_5.png" alt="Help you to grow your business"
+                                            class="quote-text-overlay">
+                                    </div>
+                                </div>
+                                <!-- Text Content Column - Always second -->
+                                <div class="col-12 col-md-6" data-aos="fade-left">
+                                    <div class="hero-text-area">
+                                        <h1>Hi, I'm Manoj</h1>
+                                        <h2 class="stroked-font">Web Developer</h2>
+                                        <ul>
+                                            <li>Interactive Web Apps</li>
+                                            <li>Responsive UI Design</li>
+                                            <li>Seamless User Experience</li>
+                                        </ul>
+                                        <a class="hero-btn" href="#contact">Get Services</a>
+                                        <img src="images/slide_shape_4.png" alt="c-shape" class="decorative-c-shape">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold">Skills</h2>
+            </div>
+            <div class="skill-pills-container" data-aos="fade-up" data-aos-delay="200">
+                <!-- Frontend -->
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                        alt="React"><span>React</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                        alt="JavaScript"><span>JavaScript</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                        alt="HTML5"><span>HTML5</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                        alt="CSS3"><span>CSS3</span></div>
+
+                <!-- Backend -->
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+                        alt="PHP"><span>PHP</span></div>
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                        alt="Node.js"><span>Node.js</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                        alt="Python"><span>Python</span></div>
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+                        alt="Laravel"><span>Laravel</span></div>
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
+                        alt="Express"><span>Express</span></div>
+
+                <!-- Database -->
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+                        alt="PostgreSQL"><span>PostgreSQL</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg"
+                        alt="MySQL"><span>MySQL</span></div>
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+                        alt="MongoDB"><span>MongoDB</span></div>
+
+                <!-- Tools & Others -->
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+                        alt="Git"><span>Git</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg"
+                        alt="Excel"><span>Excel</span></div>
+                <!-- Machine Learning -->
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                        alt="Scikit-learn"><span>Scikit-learn</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
+                        alt="TensorFlow"><span>TensorFlow</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
+                        alt="PyTorch"><span>PyTorch</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg"
+                        alt="NumPy"><span>NumPy</span></div>
+                <div class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg"
+                        alt="Pandas"><span>Pandas</span></div>
+                <div class="skill-pill"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg"
+                        alt="Matplotlib"><span>Matplotlib</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Education Section -->
+    <section id="education" class="education-section">
+        <div class="education-bg"></div>
+        <div class="container position-relative">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold text-white mb-3">Education Journey</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- University Education -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="edu-card h-100">
+                        <div class="edu-header">
+                            <img src="images/gctc.png" alt="Geethanjali College" class="edu-logo">
+                        </div>
+                        <div class="edu-content">
+                            <h4>B.Tech in Computer Science</h4>
+                            <span class="institution">Geethanjali College of Engineering and Technology</span>
+                            <div class="duration-badge">
+                                <i class="fas fa-calendar-alt me-2"></i>2020 - 2024
+                            </div>
+                            <div class="coursework">
+                                <h6>Relevant Coursework</h6>
+                                <ul>
+                                    <li>Advanced Database Systems</li>
+                                    <li>Machine Learning & AI</li>
+                                    <li>Cloud Computing</li>
+                                    <li>Data Structures & Algorithms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intermediate Education -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="edu-card h-100">
+                        <div class="edu-header">
+                            <img src="images/srigayatri.png" alt="Srigayatri Junior College" class="edu-logo">
+                        </div>
+                        <div class="edu-content">
+                            <h4>Intermediate (MPC)</h4>
+                            <span class="institution">Srigayatri Junior College, Hyderabad</span>
+                            <div class="duration-badge">
+                                <i class="fas fa-calendar-alt me-2"></i>2018 - 2020
+                            </div>
+                            <div class="key-subjects">
+                                <h6>Key Subjects</h6>
+                                <ul>
+                                    <li>Mathematics</li>
+                                    <li>Physics</li>
+                                    <li>Chemistry</li>
+                                    <li>Computer Science</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- School Education -->
+                <div class="col-lg-4 col-md-8" data-aos="fade-up" data-aos-delay="300">
+                    <div class="edu-card h-100">
+                        <div class="edu-header">
+                            <img src="images/st.claire.jpg" alt="St. Claire High School" class="edu-logo">
+                        </div>
+                        <div class="edu-content">
+                            <h4>Secondary Education</h4>
+                            <span class="institution">S.t Claire High School, Hyderabad</span>
+                            <div class="duration-badge">
+                                <i class="fas fa-calendar-alt me-2"></i>2018
+                            </div>
+                            <div class="achievements">
+                                <h6>Notable Achievements</h6>
+                                <ul>
+                                    <li>Science Stream Excellence</li>
+                                    <li>Academic Distinction</li>
+                                    <li>Extracurricular Leadership</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work-section"
+        style="background: linear-gradient(rgba(15, 12, 41, 0.85), rgba(36, 36, 62, 0.9)), url('images/test-bg.jpeg') no-repeat center center/cover fixed; position: relative; padding: 100px 0; overflow: hidden;">
+        <div class="container position-relative">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold text-white mb-3 font-family: ' Times New Roman', Times, serif">My Latest
+                    Works</h2>
+                <div class="title-underline mx-auto"
+                    style="width: 100px; height: 3px; background: #c72c2c; margin: 0 auto;"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/trauma.jpg" alt="AI Trauma-Thera Bot">
+                        <div class="project-badge">Featured</div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Project" data-tooltip="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/manojmaskam/ai-trauma-thera-bot" target="_blank"
+                                    class="project-link" aria-label="View Code" data-tooltip="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>AI Trauma-Thera Bot</h3>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">An AI-powered therapeutic assistant designed to help trauma
+                            patients through natural language processing and machine learning algorithms.</p>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>NLP</span>
+                                <span>Machine Learning</span>
+                            </div>
+                            <a href="https://github.com/manojmaskam/ai-trauma-thera-bot" target="_blank"
+                                class="btn-github">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/attendance.png" alt="Face Recognition Attendance">
+                        <div class="project-badge">Computer Vision</div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Project" data-tooltip="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/manojmaskam/face-recognition-attendance" target="_blank"
+                                    class="project-link" aria-label="View Code" data-tooltip="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Face Recognition Attendance</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">Automated attendance system using facial recognition technology
+                            to track and manage attendance in real-time with high accuracy.</p>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>Face Recognition</span>
+                            </div>
+                            <a href="https://github.com/manojmaskam/face-recognition-attendance" target="_blank"
+                                class="btn-github">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="images/credit.jpg" alt="credit-worthiness-for-rural-India">
+                        <div class="project-badge">Data Science</div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Project" data-tooltip="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/manojmaskam/credit-worthiness-for-rural-India"
+                                    target="_blank" class="project-link" aria-label="View Code"
+                                    data-tooltip="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>credit-worthiness-for-rural-India</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">A machine learning model that predicts credit risk using various
+                            financial indicators and customer data to assist in loan approval decisions.</p>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Pandas</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <a href="https://github.com/manojmaskam/Calculating-credit-worthiness-for-rural-India"
+                                target="_blank" class="btn-github">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certificates-section position-relative overflow-hidden"
+        style="padding-top: 77px;">
+        <div class="container position-relative">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold text-white mb-3">Certifications</h2>
+                <div class="title-underline mx-auto"
+                    style="width: 100px; height: 3px; background: #c72c2c; margin: 0 auto;"></div>
+            </div>
+        </div>
+        <!-- Futuristic Background Elements -->
+        <div class="certificates-bg">
+            <div class="grid-overlay"></div>
+            <div class="glow-effect"></div>
+            <div class="particle" style="--x: 10%; --y: 20%; --size: 6px; --delay: 0s;"></div>
+            <div class="particle" style="--x: 90%; --y: 40%; --size: 4px; --delay: 2s;"></div>
+            <div class="particle" style="--x: 30%; --y: 80%; --size: 5px; --delay: 4s;"></div>
+            <div class="particle" style="--x: 70%; --y: 60%; --size: 3px; --delay: 6s;"></div>
+            <div class="particle" style="--x: 50%; --y: 30%; --size: 4px; --delay: 8s;"></div>
+
+            <!-- Animated scanline effect -->
+            <div class="scanline" style="top: 0;"></div>
+        </div>
+
+        <div class="container position-relative">
+
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <h3>Certified AI - Machine Learning Engineer</h3>
+                        </div>
+                        <div class="certificate-body">
+                            <div class="certificate-issuer">
+                                <div class="issuer-logo"
+                                    style="background-image: url('images/skill_india.png'); background-size: 100%; background-position: center;">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="issuer-info">
+                                    <h4>IT-ITeS Sector Skill Council - nasscom</h4>
+                                    <p>Skill India - PMKVY</p>
+                                </div>
+                            </div>
+                            <div class="certificate-details">
+                                <p>Comprehensive training in AI and Machine Learning, covering model development,
+                                    training, and deployment. Specialized in neural networks, deep learning, and
+                                    practical implementation of ML solutions.</p>
+                            </div>
+                            <div class="certificate-footer">
+                                <span class="certificate-date"><i class="far fa-calendar-alt me-1"></i> Issued:
+                                    2025</span>
+                                <a href="#" class="certificate-link">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <h3>National Cadet Corps (NCC) 'A' Certificate</h3>
+                        </div>
+                        <div class="certificate-body">
+                            <div class="certificate-issuer">
+                                <div class="issuer-logo"
+                                    style="background-image: url('images/ncc.png'); background-size: 100%; background-position: center;">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                                <div class="issuer-info">
+                                    <h4>Ministry of Defence, India</h4>
+                                    <p>NCC Directorate</p>
+                                </div>
+                            </div>
+                            <div class="certificate-details">
+                                <p>Awarded for exceptional leadership, discipline, and dedication. Demonstrated
+                                    commitment to national service, physical fitness, and development of officer-like
+                                    qualities through rigorous training and community service.</p>
+                            </div>
+                            <div class="certificate-footer">
+                                <span class="certificate-date"><i class="far fa-calendar-alt me-1"></i> Issued:
+                                    2018</span>
+                                <a href="#" class="certificate-link">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-main">
+        <section id="contact" style="padding-top: 20px; margin-top: -150px;">
+            <div class="footer-banner-wrapper">
+                <div class="container">
+                    <div class="footer-banner" data-aos="fade-up">
+                        <h2>Looking for a<br>Development Partner?</h2>
+                        <a class="btn-contact" data-bs-toggle="offcanvas" href="#contactFormOffcanvas" role="button"
+                            aria-controls="contactFormOffcanvas">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                        <h5>Let's Build Something Great</h5>
+                        <p>Whether it's a sleeek landing page or a dynamic web app,<br>I'm here to design and develop
+                            with precision and passion</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6" data-aos="fade-up" data-aos-delay="200">
+                        <h5>Machine Learning</h5>
+                        <ul>
+                            <li>Predictive Models</li>
+                            <li>NLP</li>
+                            <li>AI chat Bot</li>
+                            <li>Face Recognition</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-delay="300">
+                        <h5>Development</h5>
+                        <ul>
+                            <li>Front End (HTML, CSS, React)</li>
+                            <li>Backend (Node.js, MongoDB)</li>
+                            <li>Mobile Apps</li>
+                            <li>Cloud Solutions</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-delay="300">
+                        <h5>Data Analytics</h5>
+                        <ul>
+                            <li>EDA</li>
+                            <li>Data Visualization</li>
+                            <li>Statistical Analysis</li>
+                            <li>PowerBI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social" style="padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <div class="container">
+                    <div class="footer-social-content">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/maskam-manoj-kumar" target="_blank"
+                                    rel="noopener noreferrer" aria-label="LinkedIn">
+                                    <svg class="social-icon">
+                                        <use xlink:href="#linkedin-svg"></use>
+                                    </svg>
+                                    LinkedIn
+                                </a></li>
+                            <li><a href="https://x.com/Manoj_Maskam" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Twitter">
+                                    <svg class="social-icon" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                                    </svg>
+                                    Twitter
+                                </a></li>
+                            <li><a href="https://github.com/manojmaskam" target="_blank" rel="noopener noreferrer"
+                                    aria-label="GitHub">
+                                    <svg class="social-icon" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                    </svg>
+                                    GitHub
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <a href="mailto:manojmaskam@gmail.com">manojmaskam@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <a href="tel:+919912345678">+91 9912345678</a>
+                    </div>
+                </div>
+                <p class="copyright">© 2025 Maskam Manoj Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <svg width="0" height="0" class="d-none">
+        <symbol id="linkedin-svg" viewBox="0 0 24 24">
+            <path
+                d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.76s.784-1.76 1.75-1.76c.968 0 1.75.79 1.75 1.76s-.782 1.76-1.75 1.76zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.767 7 2.657v6.578z" />
+        </symbol>
+        <symbol id="instagram-svg" viewBox="0 0 24 24">
+            <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.148 3.225-1.664 4.771-4.919 4.771-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.227 1.664-4.771 4.919-4.771 1.281-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.78 1.281.059 1.689.073 4.948.073s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.78-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z" />
+        </symbol>
+        <symbol id="bag-svg" viewBox="0 0 24 24">
+            <path
+                d="M20 7h-4v-3c0-2.209-1.791-4-4-4s-4 1.791-4 4v3h-4l-2 17h20l-2-17zm-11-3c0-1.654 1.346-3 3-3s3 1.346 3 3v3h-6v-3zm-4.136 15l1.221-10h2.915v2h-1.136l-.61 5h1l.61-5h1.136v-2h6v2h1.136l-.61 5h1l.61-5h-1.136v-2h2.915l1.221 10h-15.242z" />
+        </symbol>
+        <symbol id="menu-bar-svg" viewBox="0 0 24 24">
+            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+        </symbol>
+    </svg>
+
+    <div class="offcanvas offcanvas-end" data-bs-theme="dark" tabindex="-1" id="contactFormOffcanvas"
+        aria-labelledby="contactFormOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="contactFormOffcanvasLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form>
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="John Doe" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Inquiry about..." required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
