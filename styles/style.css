@@ -203,7 +203,7 @@ html {
 /* === HERO SECTION === */
 /* Hero Section - Background only here */
 .hero-section {
-    background: url('/images/homepage-bg.jpg') no-repeat center center;
+    background: url('images/homepage-bg.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -1022,7 +1022,7 @@ body::before {
 }
 
 .footer-banner {
-    background: url('/images/cta-3-bg-img-1.png') center center/cover no-repeat;
+    background: url('images/cta-3-bg-img-1.png') center center/cover no-repeat;
     padding: 2rem;
     border-radius: 0.75rem;
     display: flex;
