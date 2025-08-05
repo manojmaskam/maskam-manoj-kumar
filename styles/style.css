@@ -203,7 +203,7 @@ html {
 /* === HERO SECTION === */
 /* Hero Section - Background only here */
 .hero-section {
-    background: url('images/homepage-bg.jpg') no-repeat center center;
+    background: url('/maskam-manoj-kumar/images/homepage-bg.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -276,7 +276,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/homepage-bg.jpg');
+    background-image: url('/maskam-manoj-kumar/images/homepage-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1003,7 +1003,7 @@ body::before {
     padding-top: 4rem;
     padding-bottom: 2rem;
     position: relative;
-    background-image: url('images/footer-bg.jpg');
+    background-image: url('/maskam-manoj-kumar/images/footer-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1022,7 +1022,7 @@ body::before {
 }
 
 .footer-banner {
-    background: url('images/cta-3-bg-img-1.png') center center/cover no-repeat;
+    background: url('/maskam-manoj-kumar/images/cta-3-bg-img-1.png') center center/cover no-repeat;
     padding: 2rem;
     border-radius: 0.75rem;
     display: flex;
